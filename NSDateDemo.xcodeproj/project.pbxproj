@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		14376FB61932CC6C001B5A0C /* NSDateDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSDateDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		14376FB91932CC6C001B5A0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		14376FBC1932CC6C001B5A0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14376FBC1932CC6C001B5A0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		14376FBF1932CC6C001B5A0C /* NSDateDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateDemo-Prefix.pch"; sourceTree = "<group>"; };
 		14376FC01932CC6C001B5A0C /* NSDateDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSDateDemo.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */

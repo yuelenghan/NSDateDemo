@@ -14,8 +14,16 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSDate *date = [NSDate date];
+        NSTimeZone *zone = [NSTimeZone systemTimeZone];
+        NSDateFormatter *format = [[NSDateFormatter alloc] init];
+        format.timeZone = zone;
+        format.dateFormat = @"yyyy-MM-dd HH:mm:ss";
+        NSString *dateStr =  [format stringFromDate:date];
         
+        NSLog(@"date = %@", date);
+        NSLog(@"zone = %@", zone);
+        NSLog(@"dateStr = %@", dateStr);
     }
     return 0;
 }
